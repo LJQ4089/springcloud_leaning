@@ -5,16 +5,16 @@
 
 <mapper namespace="com.lijianqing.springcloud.dao.DeptDao">
 
-    <insert id="addDept" parameterType="Dept">
+    <insert id="addDept" parameterType="com.lijianqing.springcloud.pojo.Dept">
         insert into dept (dname, db_sourece)
         values (#{dname}, DATABASE());
     </insert>
 
-    <select id="queryById" resultType="Dept" parameterType="Long">
+    <select id="queryById" resultType="com.lijianqing.springcloud.pojo.Dept" parameterType="Long">
         select * from dept where deptno = #{deptno};
     </select>
 
-    <select id="queryAll" resultType="Dept">
+    <select id="queryAll" resultType="com.lijianqing.springcloud.pojo.Dept">
         select * from dept;
     </select>
 </mapper>

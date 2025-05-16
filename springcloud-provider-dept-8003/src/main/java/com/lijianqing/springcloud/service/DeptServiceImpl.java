@@ -1,6 +1,6 @@
 package com.lijianqing.springcloud.service;
 
-import com.lijianqing.pojo.Dept;
+import com.lijianqing.springcloud.pojo.Dept;
 import com.lijianqing.springcloud.dao.DeptDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.lijianqing.springcloud.dao;
 
-import com.lijianqing.pojo.Dept;
+import com.lijianqing.springcloud.pojo.Dept;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

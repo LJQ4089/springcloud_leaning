@@ -1,4 +1,4 @@
-package com.lijianqing.pojo;
+package com.lijianqing.springcloud.pojo;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

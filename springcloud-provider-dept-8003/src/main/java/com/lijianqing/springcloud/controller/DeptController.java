@@ -1,6 +1,6 @@
 package com.lijianqing.springcloud.controller;
 
-import com.lijianqing.pojo.Dept;
+import com.lijianqing.springcloud.pojo.Dept;
 import com.lijianqing.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;

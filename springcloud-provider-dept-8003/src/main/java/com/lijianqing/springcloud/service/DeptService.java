@@ -1,6 +1,6 @@
 package com.lijianqing.springcloud.service;
 
-import com.lijianqing.pojo.Dept;
+import com.lijianqing.springcloud.pojo.Dept;
 
 import java.util.List;
 
